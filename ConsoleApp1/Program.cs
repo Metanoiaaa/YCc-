@@ -20,7 +20,8 @@ game G2 = new game();
 //G2.PrintCosts();
 G2.StelNameEnRatingIn("GTA6", 0);
 G2.StelAllesIn("GTA7", 0, 574.95, "Steam", false);
-
+G2.vraagNaam();
+Console.WriteLine("De naam is: " + G2.Name);
 //Console.WriteLine(NewGame.Name);
 //Console.WriteLine(G2.Name);
 
@@ -30,3 +31,4 @@ Console.WriteLine("de waar van r = " + r);
 Boolean wg5 = G2.IsRatingHogerDan5();
 
 Console.WriteLine("Is de Rating hoger dan 5 " + wg5);
+

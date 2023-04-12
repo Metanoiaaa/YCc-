@@ -76,5 +76,10 @@ namespace ConsoleApp1
                 return true;
             else return false;
         }
+        
+        public void vraagNaam()
+        {
+            Name = Console.ReadLine();
+        }
     }
 }
